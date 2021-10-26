@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="hw4.css">
+    <script src="https://kit.fontawesome.com/f225150e15.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+    <i class="fas fa-smile fa-2x word2" style="color:rgb(15, 15, 15);"></i>
+    <form action="index.html" method="post"><h1 style = "text-align:left;" >Binary Converter</h1>
+      <label for="BiNum">Enter Binary value:</label><br><input type="number" id="BiNum" 
+          style="font-size : 15px; width: 20%; height: 30px" name="Binary"  placeholder="Enter Binary number"></form>
+          <input type="button" style="font-size : 20px; width: 20%; height: 30px"  value="Convert" onclick= "binaryToDecimal();">
+            <p style="color:rgb(20, 19, 20);" id="result"> </p>
+    
+            <form action="index.html" method="post"><h1 style = "text-align:left;">Decimal to Binary Converter</h1>
+            <label for="Decimal">Enter Decimal Value</label><br><input type="number" id="Decimal" 
+                style="font-size : 15px; width: 20%; height: 30px" name="Decimal"  placeholder="Enter Decimal value"></form>
+                <input type="button"  style="font-size : 20px; width: 20%; height: 30px"  value="Convert" onclick= "decimalToBinary();">
+                  <p style="color:rgb(13, 14, 13);" id="result1"></p>
+    
+                
+                <script src="conversion.js"></script>
+
+
+               
+
+</body>
+</html>

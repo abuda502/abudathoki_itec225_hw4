@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" 
+    integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="hw4.css">
+    <script src="https://kit.fontawesome.com/f225150e15.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+    <div class="body">
+    <div class = "image2">
+    <i class="fas fa-smile fa-2x word2"></i>
+    
+           <p class = "words"> Original String: </p>
+            <input type='text' placeholder="Enter message to encrypt"
+                class="userInput" required/>
+            <button class="encryptBtn">Submit</button>
+       
+            <p class="actual-text word2"></p>
+        
+            <h3 class = "words">AES Encrypted: </h3>
+            <p  class="aes-result word2" ></p>
+        
+        
+            <h3 class = "words">SHA1 Encrypted: </h3>
+            <p class="sha1-result word2"></p>
+        
+        <h3 class = "words">SHA224 Encrypted: </h3>
+            <p class="sha224-result word2"></p>
+        
+            <h3 class = "words">SHA256 Encrypted: </h3>
+            <p class="sha256-result word2"> </p></div></div>
+       
+    
+
+    
+    <script src="hw4.js"></script>
+</body>
+</html>
